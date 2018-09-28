@@ -1,3 +1,11 @@
+/*
+a,
+li,
+p,
+h1,
+h2,
+div,
+*/
 *{
     padding: 0;
     margin: 0;
@@ -5,6 +13,7 @@
 }
 *::after,
 *::before{
+    /*pseudo-elements*/
     box-sizing: inherit;
 }
 html{
@@ -14,6 +23,13 @@ html{
 }
 header{
     padding:1rem 2rem;
+/*
+    background-color: antiquewhite;
+    background-image: url(../img/css3.svg);
+    background-size:20px 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+*/
 }
 nav{
     padding:1rem 2rem;
